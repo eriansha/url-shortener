@@ -14,4 +14,11 @@ The basic concept URL Shortener by mapping the long URL to shortener, and unique
 
 ## Routing
 
-TODO
+- GET `/:shortkey` to map short, unique identifier to origin long URL on storage
+- POST `/shorten` to create URL shortener mapping
+
+## Enhancements:
+- Use PostgreSQL instead of Redis for persistent storage.
+- Implement rate limiting to prevent abuse.
+- Add expiration time for shortened URLs.
+- Implement custom short URLs (POST /shorten?custom=go123).
