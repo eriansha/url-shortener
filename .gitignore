@@ -1,1 +1,31 @@
+# Binaries (executables)
+*.exe
+*.out
+*.o
+*.a
+*.so
+*.dll
+
+# Go Modules
 go.sum
+go.work
+go.work.sum
+
+# Compiled objects and cached files
+/bin/
+/pkg/
+/vendor/
+
+# Test binary
+*.test
+
+# Logs and debugging
+*.log
+*.prof
+*.trace
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.DS_Store
